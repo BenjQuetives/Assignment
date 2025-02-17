@@ -1,0 +1,7 @@
+I spent 30 minutes visualizing the layout of the webpage.
+
+While analyzing the blocks, I focused on the padding and margins to identify the sections and subsections. The clear pixel-perfect design made it easy to distinguish the sections and their attributes. Upon examining the page, I found there were only two main sections in the body: the header and the main content.
+
+The header contains an icon, logo, input field, and a list of buttons. The main section has a left sidebar with icons and text, while the right side contains the main content, including a header, navigation, and subsections for trending and recommended videos. Each section includes thumbnails with headers and sub-headers.
+
+The background colors helped identify the borders of each section, even though there are no explicit borders in the UI. I used different colors for labeling: the green border represents the header, and the blue border highlights elements within the header. The red border marks the sidebar, which is part of the main section, while the yellow border indicates elements inside the sidebar. The black border highlights the main section, and the orange border denotes the subsections and important items, such as thumbnails. 

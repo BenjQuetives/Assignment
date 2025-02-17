@@ -1,0 +1,2 @@
+I took it for 20 min
+Display and flex-direction help's to properly fix each boxes in proper area even they are in different width and height. Using padding or margin avoid me create more div tag in html.

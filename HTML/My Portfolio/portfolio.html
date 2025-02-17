@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="This page tells about me and my project, to reach me out submit message below">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+
+<body>
+    <header>
+        <h2>Welcome to My Portfolio</h2>
+        <nav>
+            <ul>
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#my-projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about-me" class="about-me">
+            <div class="about-text">
+                <h3>About Me</h3>
+                <p>My focus is on creating applications that make a real impact, helping users in meaningful ways. Alongside mobile development, I am also eager to explore the world of web development.</p>
+                <p>I aim to create websites that not only meet user needs but also provide helpful, user-friendly experiences.</p>
+            </div>
+            <div class="about-data">
+                <img src="portfolio_img.jpg" alt="Show my image">
+                <p>Benjamin M. Quetives</p>
+                <p>23 years old</p>
+            </div>
+        </section>
+
+        <section id="my-projects" class="my-projects">
+            <h3>My Projects</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <td>Project Name</td>
+                        <td>Description</td>
+                        <td>Year</td>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Arangkada Norte</td>
+                        <td>A mobile app that can book and trace hotel in region1 and show beautiful travel spots in
+                            region 1</td>
+                        <td>2023</td>
+                    </tr>
+                    <tr>
+                        <td>Trabahanap</td>
+                        <td>A mobile app that can provide and trace services to people who need's help</td>
+                        <td>2023</td>
+                    </tr>
+                    <tr>
+                        <td>BloodLine</td>
+                        <td>A mobile app that can find blood donor in legal way</td>
+                        <td>2023</td>
+                    </tr>
+                    <tr>
+                        <td>Agripro Express</td>
+                        <td>A hybrid system that can buy and sale agriproduct</td>
+                        <td>2024</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="contact" class="contact">
+            <h3>Contact Me</h3>
+            <form action="" method="post">
+                <section class="contact-form">
+                    <label for="name">Full Name: <input type="text" id="name" name="name" placeholder="Full Name"></label>
+                    <label for="email">Email Address: <input type="email" id="email" name="email" placeholder="Email"></label>
+                </section>
+                
+                <fieldset>
+                    <legend>How did you here about this portfolio?</legend>
+
+                    <label for="fiend">
+                        <input type="radio" id="fiend" name="find" value="fiend">Fiend
+                    </label>
+             
+                    <label for="social-media">
+                        <input type="radio" id="social-media" name="find" value="social-media">Social Media
+                    </label>
+              
+                    <label for="search-engine">
+                        <input type="radio" id="search-engine" name="find" value="search-engine">Search Engine
+                    </label>
+           
+                    <label for="other">
+                        <input type="radio" id="other" name="find" value="other">Other
+                    </label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Skills/Interests</legend>
+
+                    <label for="web-development">
+                        <input type="checkbox" id="web-development" name="skills"
+                            value="web-development">Web Development
+                    </label>
+            
+                    <label for="design">
+                        <input type="checkbox" id="design" name="skills" value="design">Design
+                    </label>
+                 
+                    <label for="mobile-development">
+                        <input type="checkbox" id="mobile-development" name="skills"
+                            value="mobile-development">Mobile Development
+                    </label>
+                </fieldset>
+
+                <section class="comment-section">
+                    <label for="comments">Comments or Message: </label>
+                    <textarea id="comments" name="comments" placeholder="Enter your comments here....."></textarea>
+                </section>
+             
+                <input class="submit-btn" type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© Benjamin Quetives 2025</p>
+    </footer>
+</body>
+
+</html>

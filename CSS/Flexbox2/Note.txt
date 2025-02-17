@@ -1,0 +1,4 @@
+I took the assignment within 25 min
+
+My difficulties is where should i put the justify-content and align-items property, i analyze the structure or HTML to make sure the best part should i put those CSS property.
+
