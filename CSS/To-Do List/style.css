@@ -1,0 +1,88 @@
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 170px;
+    background-color: azure;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    border-radius: 20px;
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+header, form, section {
+    margin: 10px;
+}
+
+header {
+    padding: 0px 10px;
+    text-align: center;
+    background-color: #0178d4;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+
+/* Form */
+
+.input-item {
+    display: flex;
+    border-radius: 5px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.do-task {
+    flex: 1;
+    padding: 10px;
+    border: 2px solid #ececec;
+    border-radius: 5px 0 0 5px;
+}
+
+.submit-task {
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    border-radius: 0 5px 5px 0;
+    background-color: #0178d4;
+}
+
+.submit-task:hover {
+    background-color: #dbeef4;
+    color: black;
+}
+
+/* Button Section */
+
+section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+section a:nth-child(odd) {
+    background-color: #dbeef4;
+    color: black;
+}
+
+section a:nth-child(even) {
+    background-color: #a9d08f;
+    color: black;
+    text-decoration: line-through;
+}
+
+section a {
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+}
